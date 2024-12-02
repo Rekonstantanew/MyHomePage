@@ -1,0 +1,164 @@
+a {
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+}
+
+img{
+    max-width: 100%;
+}
+.MainContainer{
+   width: 1000px; 
+   margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+header nav{
+    margin-left: auto;
+    font-size: 20px;
+    margin-right: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul a{
+    color: beige;
+}
+
+header nav ul li:not(.active) a:hover{
+    border-bottom: 4px solid rgb(177, 35, 233) ;
+    border-radius: 2px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-info{
+    width: 500px;
+}
+
+.hero-info p{
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.hero-info h1{
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    text-align: center;
+    font-size: 36px;
+    line-height: 135%;
+}
+
+.hero-info h2{
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 135%;
+    
+}
+
+.hero-info .button{
+    background: rgb(55, 57, 145);
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 0px;
+    transition: all 500ms ease;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hero-info .button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero .Subaru{
+    top: 0px;
+    left: 550px;
+    z-index: 1;
+    transition: all 500ms ease;
+    position: absolute;
+    
+}
+
+.hero .Subaru img{
+    transition: all 500ms ease;
+    border-radius: 50px;
+}
+.hero .Subaru p{
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hero .Subaru img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.TechnicsContainer{
+    font-family: "Roboto Slab", serif;
+    color: beige;
+    height: 0px;  
+    background: #0000A8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.TechnicsContainer li{
+    font-size: 35px;
+    text-decoration: none;
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: -23px;
+}
+
+.TechnicsContainer div ul li{
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.ContactsIcon{
+    width: 1400px; 
+}
+
+.ContactsIcon ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.ContactsIcon div{
+   position: relative;
+   left: 35px;
+    
+}
+
+.ContactsIcon img{
+    list-style: none;
+    width: 20%;
+}

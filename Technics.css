@@ -1,0 +1,96 @@
+header {
+    padding: 25px;
+}
+
+header nav{
+    margin-left: auto;
+    font-size: 20px;
+    margin-right: 25px;
+    width: 100%;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.TechnicsContainer{
+    font-family: "Tektur", sans-serif;
+    color: beige;
+    height: 0px;  
+    background: #0000A8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header nav li{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -18px;
+    font-size: 25px;
+}
+
+header nav ul{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 25px;
+    background: #00A8A8;
+}
+
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+header nav ul li{
+    width: 175px;
+    font-size: 25px;
+    display: flex;
+    top: 0px;
+}
+
+header nav ul li:hover{
+    background-color: #0000A8 ;
+    a{color: white;}
+}
+/*.TechnicsContainer div li{
+    font-family: "Roboto Slab", serif;
+    color: beige;
+    height: 0px;  
+    background: #0000A8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.TechnicsContainer li{
+    font-size: 35px;
+    text-decoration: none;
+    font-family: "Tektur", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: -23px;
+}
+
+.TechnicsContainer div ul li{
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-size: px;
+    font-style: normal;
+}
